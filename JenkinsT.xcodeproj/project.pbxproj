@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					4A02CDE21ED1B4EC001D3D11 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 472P9J8R6U;
 					};
 					4A02CDFB1ED1B4EC001D3D11 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -367,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2b71b05a-cff0-40bf-8598-a82472bc337c";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -404,6 +406,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2b71b05a-cff0-40bf-8598-a82472bc337c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -413,9 +416,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JenkinsT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xrs.JenkinsT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xrs.Jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -424,9 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JenkinsT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xrs.JenkinsT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xrs.Jenkins;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +503,7 @@
 				4A02CE121ED1B4EC001D3D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A02CE131ED1B4EC001D3D11 /* Build configuration list for PBXNativeTarget "JenkinsTTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +512,7 @@
 				4A02CE151ED1B4EC001D3D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A02CE161ED1B4EC001D3D11 /* Build configuration list for PBXNativeTarget "JenkinsTUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +521,7 @@
 				4A02CE181ED1B4EC001D3D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
